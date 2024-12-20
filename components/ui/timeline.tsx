@@ -42,7 +42,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 </h2>
                 <p className="text-neutral-700 dark:text-neutral-300 text-lg md:text-xl font-bold max-w-sm">
                     I&apos;ve been working on Journey of Improving for 3 years.
-                    <span className="text-purple-500"> Here's a timeline of my journey.</span>
+                    <span className="text-purple-500"> Here&apos;s a timeline of my journey.</span>
                 </p>
             </div>
 

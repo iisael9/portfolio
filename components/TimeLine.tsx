@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { Timeline } from "@/components/ui/timeline";
-import { div } from "framer-motion/m";
 
 const TimeLine = () => {
     <div id="TimeLine">

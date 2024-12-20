@@ -64,7 +64,7 @@ const Hero = () => {
                     />
 
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hi, I'm Isael, a Computer Science graduate with a minor in Data Science from California State University, San Bernardino. I specialize in software development, problem-solving, and creating data-driven solutions to tackle real-world challenges.
+                        Hi, I&apos;m Isael, a Computer Science graduate with a minor in Data Science from California State University, San Bernardino. I specialize in software development, problem-solving, and creating data-driven solutions to tackle real-world challenges.
                     </p>
 
 

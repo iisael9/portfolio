@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { SVGProps } from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
@@ -16,8 +16,8 @@ const Approach = () => {
                 <Card
                     title="Planning & Strategy"
                     icon={<AceternityIcon order="Phase 1" />}
-                    description="We'll collaberate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements"
-                    >
+                    description="We&apos;ll collaberate to map out your website&apos;s goals, target audience, and key functionalities. We&apos;ll discuss things like site structure, navigation, and content requirements"
+                >
                     <CanvasRevealEffect
                         animationSpeed={5.1}
                         containerClassName="bg-emerald-900"
@@ -25,9 +25,9 @@ const Approach = () => {
                 </Card>
                 <Card
                     title="Development & Progress Update"
-                    icon={<AceternityIcon order="Phase 2"/>}
-                    description="We'll collaberate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements"
-                    >
+                    icon={<AceternityIcon order="Phase 2" />}
+                    description="We&apos;ll collaberate to map out your website&apos;s goals, target audience, and key functionalities. We&apos;ll discuss things like site structure, navigation, and content requirements"
+                >
                     <CanvasRevealEffect
                         animationSpeed={3}
                         containerClassName="bg-black"
@@ -37,13 +37,13 @@ const Approach = () => {
                         ]}
                         dotSize={2}
                     />
-                    
+
                 </Card>
                 <Card
                     title="Development and Launch"
-                    icon={<AceternityIcon order="Phase 3"/>}
-                    description="We'll collaberate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements"
-                    >
+                    icon={<AceternityIcon order="Phase 3" />}
+                    description="We&apos;ll collaberate to map out your website&apos;s goals, target audience, and key functionalities. We&apos;ll discuss things like site structure, navigation, and content requirements"
+                >
                     <CanvasRevealEffect
                         animationSpeed={3}
                         containerClassName="bg-sky-600"
@@ -98,7 +98,7 @@ const Card = ({
                     {title}
                 </h2>
                 <h2 className="text-sm dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center"
-                style={{ color: '#e4ecff'}}>
+                    style={{ color: '#e4ecff' }}>
                     {description}
                 </h2>
             </div>
@@ -119,7 +119,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
     );
 };
 
-export const Icon = ({ className, ...rest }: any) => {
+export const Icon = ({ className, ...rest }: SVGProps<SVGSVGElement>) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"

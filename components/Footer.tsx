@@ -26,7 +26,7 @@ const Footer = () => {
             Let&apos;s connect and see how my skills in software development and data science can help bring your ideas to life.
           </p>
           <a href="mailto:iisael090@gmail.com">
-            <MagicButton title="Let's get in touch" icon={<FaLocationArrow />} position="right" />
+            <MagicButton title="Let&apos;s get in touch" icon={<FaLocationArrow />} position="right" />
           </a>
         </div>
 
