@@ -2,6 +2,8 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
+    { name: "Timeline", link: "#TimeLine" },
+    { name: "Photography", link: "#photography" },
     { name: "Contact", link: "#contact" },
 ];
 
@@ -49,7 +51,7 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Currently building a JS Animation library",
+        title: "Currently building Jackbox Like Spotify Guessing Game.",
         description: "The Inside Scoop",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -74,7 +76,7 @@ export const projects = [
         id: 1,
         title: "Whose Song Is It? - Spotify Party Game",
         des: "An interactive web app where users log in with Spotify, contribute their playlists, and compete to guess whose playlist a song belongs to! What is Spotify Guess Game?",
-        img: "/p1.svg",
+        img: "spotify-game.webp",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
         link: "https://github.com/iisael9/spotify-guess-game",
     },
@@ -82,7 +84,7 @@ export const projects = [
         id: 2,
         title: "Forest of Enchantment",
         des: "Forest of Enchantment is a 2D platformer set in a lush, mystical forest teeming with magical creatures and hidden secrets. Players navigate through hand-drawn levels, leaping across treacherous gaps, collecting rare items, and unraveling the forest’s ancient lore.",
-        img: "/p2.svg",
+        img: "/FOE.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
         link: "https://github.com/iisael9/__Forest_Of_Enchantment",
     },
@@ -90,7 +92,7 @@ export const projects = [
         id: 3,
         title: "G2 Insurance Business Website",
         des: "G2 Insurance Website is a single-page application (SPA) built to showcase the services offered by G2 Business & Auto Insurance. The website features smooth navigation, a professional design, and interactive sections such as a carousel, insurance coverages, Google reviews, and a contact form for users to request quotes. Features",
-        img: "/p3.svg",
+        img: "/G2.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
         link: "https://github.com/iisael9/G2Insurance",
     },
@@ -98,7 +100,7 @@ export const projects = [
         id: 4,
         title: "Autonomous Drone Shadowing with AI",
         des: "This project focuses on developing a system for autonomous drone detection and tracking using AI-powered technologies. The goal is to enable drones to detect, identify, and dynamically track other drones in real time, addressing the growing need for safe and scalable drone traffic management. This work was conducted during the CREST Summer Program at California State University, San Bernardino.",
-        img: "/p4.svg",
+        img: "/drone.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
         link: "https://github.com/iisael9/DroneCode",
     },
@@ -138,65 +140,65 @@ export const testimonials = [
 ];
 
 export const companies = [
-    {
-        id: 1,
-        name: "cloudinary",
-        img: "/cloud.svg",
-        nameImg: "/cloudName.svg",
-    },
-    {
-        id: 2,
-        name: "appwrite",
-        img: "/app.svg",
-        nameImg: "/appName.svg",
-    },
-    {
-        id: 3,
-        name: "HOSTINGER",
-        img: "/host.svg",
-        nameImg: "/hostName.svg",
-    },
-    {
-        id: 4,
-        name: "stream",
-        img: "/s.svg",
-        nameImg: "/streamName.svg",
-    },
-    {
-        id: 5,
-        name: "docker.",
-        img: "/dock.svg",
-        nameImg: "/dockerName.svg",
-    },
+    // {
+    //     id: 1,
+    //     name: "cloudinary",
+    //     img: "/cloud.svg",
+    //     nameImg: "/cloudName.svg",
+    // },
+    // {
+    //     id: 2,
+    //     name: "appwrite",
+    //     img: "/app.svg",
+    //     nameImg: "/appName.svg",
+    // },
+    // {
+    //     id: 3,
+    //     name: "HOSTINGER",
+    //     img: "/host.svg",
+    //     nameImg: "/hostName.svg",
+    // },
+    // {
+    //     id: 4,
+    //     name: "stream",
+    //     img: "/s.svg",
+    //     nameImg: "/streamName.svg",
+    // },
+    // {
+    //     id: 5,
+    //     name: "docker.",
+    //     img: "/dock.svg",
+    //     nameImg: "/dockerName.svg",
+    // },
 ];
 
 export const workExperience = [
     {
         id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+        title: "Centers of Research Excellence in Science and Technology (CREST) Program (Internship) July-December 2024",
+        desc: "Developed an AI-driven drone tracking system. Created an adaptive Python algorithm. Analyzed and improved detection accuracy.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+        title: "Game Design - 2D Top-Down Adventure",
+        desc: "Led a team of 7 students to build a top-down 2D game and SRS document outlining scope, user interface, communication interface, memory, runtime, error handling, design constraints, and product functions.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp2.svg",
     },
     {
         id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+        title: "Freelance Bussiness Website Project",
+        desc: "G2 Insurance Website is a single-page application (SPA) built to showcase the services offered by G2 Business & Auto Insurance.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp3.svg",
     },
     {
         id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
-        className: "md:col-span-2",
+        title: "EDUCATION",
+        desc: "California State University, San Bernardino B.S Computer Science & Minor in Data Science.",
+        className: "md:col-span-2 font-semi-bold",
         thumbnail: "/exp4.svg",
     },
 ];
@@ -205,13 +207,17 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
+        url: "https://github.com/iisael9",
     },
     {
         id: 2,
-        img: "/twit.svg",
+        img: "/insta.svg",
+        url: "https://www.instagram.com/sspace9/",
     },
     {
         id: 3,
         img: "/link.svg",
+        url: "www.linkedin.com/in/isael-lazcano-b22047294",
     },
+    
 ];
